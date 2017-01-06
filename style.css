@@ -1,0 +1,204 @@
+.container{
+  background-color: #C7FEF7;
+  width: 900px;
+  height: 500px;
+  position: relative;
+}
+.top{
+  background-color: #fefefe;
+  position: absolute;
+  top: 70px;
+  left: 270px;
+  width: 270px;
+  height: 170px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 10px;
+}
+.screen{
+  position:absolute;
+  background-color: black;
+  width: 230px;
+  height: 150px;
+  top: 20px;
+  left: 40px;
+}
+.circle{
+  position: absolute;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+}
+.circle.red{
+  background-color: red;
+  top: 3px;
+  left: 3px;
+}
+.circle.yellow{
+  background-color: #ffae00;
+  top: 3px;
+  left: 12px;
+}
+.circle.green{
+  background-color: green;
+  top: 3px;
+  left: 21px;
+}
+.word{
+  position: absolute;
+  background-color: black;
+  left: 7px;
+  height: 5px;
+}
+.word.first{
+  top: 30px;
+  width: 25px;
+}
+.word.second{
+  top: 40px;
+  width: 20px;
+}
+.word.third{
+  width: 22px;
+  top: 50px;
+}
+.word.fourth{
+  width: 15px;
+  top: 60px;
+}
+.word.five{
+  width: 20px;
+  top: 14px;
+  left: 60px;
+}
+.word.six{
+  width: 20px;
+  top: 14px;
+  left: 90px;
+}
+.word.seven{
+  width: 20px;
+  top: 14px;
+  left: 120px;
+}
+.code{
+  height: 5px;
+  position: absolute;
+}
+.code.red{
+  background-color: red;
+}
+.code.red.one{
+  width: 30px;
+  top: 40px;
+  left: 90px;
+}
+.code.red.two{
+  width: 40px;
+  top: 60px;
+  left: 150px;
+}
+.code.red.three{
+  width: 20px;
+  top: 70px;
+  left: 120px;
+}
+.code.blue{
+  background-color: #00aeff;
+}
+.code.blue.one{
+  width: 20px;
+  top: 40px;
+  left: 65px;
+}
+.code.blue.two{
+  width: 10px;
+  top: 40px;
+  left: 125px;
+}
+.code.blue.three{
+  width: 60px;
+  top: 50px;
+  left: 65px;
+}
+.code.blue.four{
+  width: 20px;
+  top: 50px;
+  left: 130px;
+}
+.code.blue.five{
+  width: 30px;
+  top: 50px;
+  left: 155px;
+}
+.code.blue.six{
+  width: 80px;
+  top: 60px;
+  left: 65px;
+}
+.code.blue.seven{
+  width: 10px;
+  top: 70px;
+  left: 65px;
+}
+.code.blue.eight{
+  width: 35px;
+  top: 70px;
+  left: 80px;
+}
+.board{
+  background-color: #ededed;
+  position: absolute;
+  top: 250px;
+  left: 260px;
+  width: 290px;
+  height: 170px;
+  border-radius: 10px;
+}
+.key1{
+  background-color: white;
+  height: 10px;
+  width: 15px;
+  position: absolute;
+  border-radius: 4px;
+  top: 30px;
+}
+.key1.zero{
+  left: 52px;
+}
+.key1.one{
+  left: 71px;
+}
+.key1.two{
+  left: 90px;
+}
+.key1.three{
+  left: 109px;
+}
+.key1.four{
+  left: 128px;
+}
+.key1.five{
+  left: 147px;
+}
+.key1.six{
+  left: 166px;
+}
+.key1.seven{
+  left: 185px;
+}
+.key1.eight{
+  left: 204px;
+}
+.key1.nine{
+  left: 223px;
+}
+.key2{
+  background-color: white;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  border-radius: 4px;
+}
+.key2.one{
+  top: 45px;
+}
