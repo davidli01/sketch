@@ -8,17 +8,17 @@
   background-color: #fefefe;
   position: absolute;
   top: 70px;
-  left: 270px;
-  width: 270px;
-  height: 170px;
+  left: 310px;
+  width: 240px;
+  height: 145px;
   border-radius: 2px;
   box-shadow: 0 0 0 10px;
 }
 .screen{
   position:absolute;
   background-color: #333;
-  width: 230px;
-  height: 150px;
+  width: 200px;
+  height: 125px;
   top: 20px;
   left: 40px;
 }
@@ -148,10 +148,10 @@
 .board{
   background-color: #f7f7f7;
   position: absolute;
-  top: 250px;
-  left: 260px;
-  width: 290px;
-  height: 170px;
+  top: 225px;
+  left: 300px;
+  width: 260px;
+  height: 145px;
   border-radius: 10px;
 }
 .key1{
@@ -160,37 +160,37 @@
   width: 15px;
   position: absolute;
   border-radius: 4px;
-  top: 30px;
+  top: 15px;
 }
 .key1.zero{
-  left: 52px;
+  left: 37px;
 }
 .key1.one{
-  left: 71px;
+  left: 56px;
 }
 .key1.two{
-  left: 90px;
+  left: 75px;
 }
 .key1.three{
-  left: 109px;
+  left: 94px;
 }
 .key1.four{
-  left: 128px;
+  left: 113px;
 }
 .key1.five{
-  left: 147px;
+  left: 132px;
 }
 .key1.six{
-  left: 166px;
+  left: 151px;
 }
 .key1.seven{
-  left: 185px;
+  left: 170px;
 }
 .key1.eight{
-  left: 204px;
+  left: 189px;
 }
 .key1.nine{
-  left: 223px;
+  left: 208px;
 }
 .key2{
   background-color: #333;
@@ -200,130 +200,138 @@
   border-radius: 4px;
 }
 .key2.row1{
-  top: 45px;
+  top: 30px;
 }
 .key2.row1.zero{
-  left: 52px;
+  left: 37px;
 }
 .key2.row1.one{
-  left: 71px;
+  left: 56px;
 }
 .key2.row1.two{
-  left: 90px;
+  left: 75px;
 }
 .key2.row1.three{
-  left: 109px;
+  left: 94px;
 }
 .key2.row1.four{
-  left: 128px;
+  left: 113px;
 }
 .key2.row1.five{
-  left: 147px;
+  left: 132px;
 }
 .key2.row1.six{
-  left: 166px;
+  left: 151px;
 }
 .key2.row1.seven{
-  left: 185px;
+  left: 170px;
 }
 .key2.row1.eight{
-  left: 204px;
+  left: 189px;
   width: 34px;
 }
 .key2.row2{
-  top: 65px;
+  top: 50px;
 }
 .key2.row2.zero{
-  left: 52px;
+  left: 37px;
   width: 34px;
 }
 .key2.row2.one{
-  left: 90px;
+  left: 75px;
 }
 .key2.row2.two{
-  left: 109px;
+  left: 94px;
 }
 .key2.row2.three{
-  left: 128px;
+  left: 113px;
 }
 .key2.row2.four{
-  left: 147px;
+  left: 132px;
 }
 .key2.row2.five{
-  left: 166px;
+  left: 151px;
 }
 .key2.row2.six{
-  left: 185px;
+  left: 170px;
 }
 .key2.row2.seven{
-  left: 204px;
+  left: 189px;
 }
 .key2.row2.eight{
-  left: 223px;
+  left: 208px;
 }
 .key2.row3{
-  top: 85px;
+  top: 70px;
 }
 .key2.row3.zero{
-  left: 52px;
+  left: 37px;
   width: 25px;
 }
 .key2.row3.one{
-  left: 80px;
+  left: 66px;
 }
 .key2.row3.two{
-  left: 99px;
+  left: 85px;
 }
 .key2.row3.three{
-  left: 118px;
+  left: 104px;
 }
 .key2.row3.four{
-  left: 137px;
+  left: 123px;
 }
 .key2.row3.five{
-  left: 156px;
+  left: 142px;
 }
 .key2.row3.six{
-  left: 175px;
+  left: 161px;
 }
 .key2.row3.seven{
-  left: 194px;
+  left: 180px;
 }
 .key2.row3.eight{
-  left: 213px;
+  left: 199px;
   width: 25px;
 }
 .key2.row4{
-  top: 105px;
+  top: 90px;
 }
 .key2.row4.zero{
-  left: 52px;
+  left: 37px;
 }
 .key2.row4.one{
-  left: 71px;
+  left: 56px;
 }
 .key2.row4.two{
-  left: 90px;
+  left: 75px;
 }
 .key2.row4.three{
-  left: 109px;
+  left: 94px;
   width: 72px;
 }
 .key2.row4.seven{
-  left: 185px;
+  left: 170px;
 }
 .key2.row4.eight{
-  left: 204px;
+  left: 189px;
 }
 .key2.row4.nine{
-  left: 223px;
+  left: 208px;
 }
 .pad{
   position: absolute;
   width: 75px;
-  height: 35px;
-  top: 125px;
-  left: 107px;
+  height: 30px;
+  top: 110px;
+  left: 92px;
   border-radius: 5px;
   background-color: #eaeaea;
+}
+.bar{
+  width: 180px;
+  height: 15px;
+  background-color: #333;
+  position: absolute;
+  top: -5px;
+  left: 40px;
 }
