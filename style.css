@@ -473,7 +473,7 @@
   width: 90px;
   background-color: white;
   position: absolute;
-  top: 200px;
+  top: 155px;
   left: 600px;
 }
 .inside{
@@ -502,7 +502,7 @@
   height: 1px;
   position: absolute;
   left: 600px;
-  top: 65px;
+  top: 30px;
 }
 .book1{
   background-color: #006099;
@@ -655,4 +655,169 @@ p{
   position: absolute;
   top: 3px;
   left: 28px;
+}
+.note{
+  position: absolute;
+  height: 180px;
+  width: 140px;
+  top: 280px;
+  left: 620px;
+  background-color: white;
+  transform: rotate(30deg);
+}
+.note::after{
+  content: "";
+  height: 10px;
+  width: 140px;
+  position: absolute;
+  background-color: #333;
+}
+.line{
+  position: absolute;
+  height: 1px;
+  width: 140px;
+  background-color: #333;
+}
+.line.one{
+  top: 20px;
+}
+.line.one::after{
+  content: "David Li";
+  font-size: 11px;
+  top: -12px;
+  position: absolute;
+}
+.line.two{
+  top: 30px;
+}
+.line.two::after{
+  content: "Developer";
+  font-size: 11px;
+  top: -12px;
+  position: absolute;
+}
+.line.three{
+  top: 40px;
+}
+.line.three::after{
+  content: "Technology Enthusiast";
+  font-size: 11px;
+  top: -12px;
+  position: absolute;
+}
+.line.four{
+  top: 50px;
+}
+.line.four::after{
+  content: "Curious";
+  font-size: 11px;
+  top: -12px;
+  position: absolute;
+}
+.line.five{
+  top: 60px;
+}
+.line.five::after{
+  content: "Motivated";
+  font-size: 11px;
+  top: -12px;
+  position: absolute;
+}
+.line.six{
+  top: 70px;
+}
+.line.six::after{
+  content: "Affable";
+  font-size: 11px;
+  top: -12px;
+  position: absolute;
+}
+.line.seven{
+  top: 80px;
+}
+.line.seven::after{
+  content: "Philomath";
+  font-size: 11px;
+  top: -12px;
+  position: absolute;
+}
+.line.eight{
+  top: 90px;
+}
+.line.eight::after{
+  content: "Dedicated";
+  font-size: 11px;
+  top: -12px;
+  position: absolute;
+}
+.line.nine{
+  top: 100px;
+}
+.line.ten{
+  top: 110px;
+}
+.line.ten1{
+  top: 120px;
+}
+.line.ten2{
+  top: 130px;
+}
+.line.ten3{
+  top: 140px;
+}
+.line.ten4{
+  top: 150px;
+}
+.line.ten5{
+  top: 160px;
+}
+.line.ten6{
+  top: 170px;
+}
+.pen{
+  position: absolute;
+  height: 100px;
+  width: 10px;
+  background-color: #8cb6ff;
+  top: 380px;
+  left: 660px;
+  transform: rotate(-20deg);
+}
+.pen::after{
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 10px solid #497ed8;
+  top: -10px;
+}
+.cap{
+  position: absolute;
+  height: 35px;
+  width: 12px;
+  background-color: #376cc6;
+  left: -1px;
+  top: 70px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.cap::after{
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 3px;
+  background-color: #376cc6;
+  left: -4px;
+  top: 3px;
+}
+.cap::before{
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 3px;
+  background-color: #376cc6;
+  top: 25px;
+  left: -3px;
 }
